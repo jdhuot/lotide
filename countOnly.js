@@ -18,9 +18,6 @@ const countOnly = function(allItems, itemsToCount) {
         result[i] = 1;
       }
     }
-    /* if (i === "jason") {
-      console.log()
-    } */
   }
   console.log(result);
   return result;
