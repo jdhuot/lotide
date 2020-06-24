@@ -8,6 +8,7 @@ const assertEqual = function(actual,expected) {
 
 
 
+
 const countLetters = function(sentence) {
   let result = {};
   let s2 = sentence.replace(/\s+/g, '');
@@ -23,4 +24,5 @@ const countLetters = function(sentence) {
 };
 
 
-countLetters("lighthouse in the house");
+
+// countLetters("lighthouse in the house");
