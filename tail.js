@@ -9,19 +9,16 @@ const assertEqual = function(actual,expected) {
 
 const tail = function(arr) {
   let newArr = arr.slice(1);
-  // console.log(newArr);
   return newArr;
 };
 
 // TEST CODE
-assertEqual("Lighthouse Labs", "Bootcamp");
-assertEqual(1,1);
-
-let test1 = tail([1,2,3,4,5]);
+let test1 = tail([1,"banana","apple",4,5]);
 
 assertEqual(test1.length,4);
-assertEqual(test1[0],2);
-assertEqual(test1[1],3);
+assertEqual(test1[0],"banana");
+assertEqual(test1[1],"apple");
+
 
 
 
